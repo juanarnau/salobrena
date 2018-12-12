@@ -1,6 +1,6 @@
 <?
 
-$con=mysql_connect("127.0.0.1","root","RuizyPons");
+$con=mysql_connect("127.0.0.1","root","");
 //$con=mysql_connect("127.0.0.1","root","");
 mysql_select_db("box", $con);
 //if(!ob_start("ob_gzhandler")) ob_start();
